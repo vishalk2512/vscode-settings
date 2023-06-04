@@ -1,0 +1,119 @@
+{
+  // workbench
+  "workbench.colorTheme": "Night Owl",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+
+  // editor
+  "editor.fontFamily": "'Fira Code'",
+  // "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.rulers": [80],
+  "editor.wordBasedSuggestions": false,
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "bounded",
+  // "editor.wordWrapColumn": 100,
+  "editor.wrappingIndent": "indent",
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorWidth": 4,
+  "editor.accessibilitySupport": "off",
+  "editor.renderWhitespace": "boundary",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // files
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+
+  // emojisense - extension
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": true,
+    "json": true,
+    "html": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "scminput": true
+  },
+
+  // code runner - extension
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+
+  // prettier - extension
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+
+  // eslint - extension
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.options": {
+    "env": {
+      "browser": true,
+      "jest/globals": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "no-debugger": "off"
+    }
+  },
+
+  // other - extensions
+  "tailwindCSS.emmetCompletions": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "reactSnippets.settings.importReactOnTop": false,
+  "git.autofetch": true,
+  "npm.runSilent": true,
+
+  // search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+
+  // extra
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDragAndDrop": false
+}
